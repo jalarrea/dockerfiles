@@ -21,13 +21,13 @@
     "textAnalyzer": "libpostal",
     "services": {
       "placeholder": {
-        "url": "http://placeholder:4100"
+        "url": "http://placeholder"
       },
       "pip": {
-        "url": "http://pip-service:4200"
+        "url": "http://pip-service"
       },
       "interpolation": {
-        "url": "http://interpolation:4300"
+        "url": "http://interpolation"
       }
     }
   },
