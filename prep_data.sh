@@ -16,7 +16,8 @@ if ! [ $(curl --output /dev/null --silent --head --fail http://localhost:9200) ]
 fi
 
 # create the index in elasticsearch before importing data
-docker-compose run --rm schema npm run create_index;
+docker-compose run -T --rm schema node scripts/drop_index.js --force-yes
+docker-compose run --rm schema npm run create_index
 
 # download all the data to be used by imports
 docker-compose run --rm whosonfirst npm run download &
