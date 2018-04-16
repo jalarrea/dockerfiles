@@ -62,11 +62,15 @@
       "datapath": "/data/polylines",
       "files": [ "extract.0sv" ]
     },
+    "notes": {
+      "importPlaceTriCounty": ["102081631", "102082215", "102082213"],
+      "importPlaceOregonWashington": ["85688513", "85688623"]
+    },
     "whosonfirst": {
       "datapath": "/data/whosonfirst",
       "importVenues": false,
       "importPostalcodes": true,
-      "importPlace": "101715829"
+      "importPlace": ["102081631", "102082215", "102082213"]
     },
     "interpolation": {
       "download": {
